@@ -7,6 +7,7 @@ const TestApi = () => {
     let data = {
       name: "himanshu",
       job: "developer",
+      id: 1,
     };
 
     try {
@@ -28,6 +29,7 @@ const TestApi = () => {
   return (
     <div>
       <h1>This page is to test API response</h1>
+      <p>thus check its working </p>
       <button onClick={handleSubmit}>Test</button>
     </div>
   );
