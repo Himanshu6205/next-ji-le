@@ -17,6 +17,7 @@ export default function Navbar() {
       
       <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
 
+    {/* next js routing */}
         <li><Link href="/">Home</Link></li>
         <li><Link href="/services">Services</Link></li>
         <li><Link href="/section">Section</Link></li>
